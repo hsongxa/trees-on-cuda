@@ -37,7 +37,7 @@ int main()
     h_points[8] = point_2d{62, 69};
     h_points[9] = point_2d{53, 67};
 
-    // build kd_tree on device with all tags initialized to zero
+    // build kd_tree on device
     thrust::device_vector<point_2d> d_points = h_points;
     int status = build_kd_tree(thrust::raw_pointer_cast(d_points.data()), d_points.size());
 
