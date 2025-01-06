@@ -20,7 +20,7 @@
 
 #include "point.h"
 
-#include "cuda_runtime.h"
+#include <cuda_runtime.h>
 #include <thrust/tuple.h>
 
 #include <cassert>
