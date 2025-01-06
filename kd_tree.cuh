@@ -18,11 +18,9 @@
 #ifndef KD_TREE_H
 #define KD_TREE_H
 
-#include "cuda_runtime.h"
-#include "device_launch_parameters.h"
-
 #include "point.h"
 
+#include "cuda_runtime.h"
 #include <thrust/tuple.h>
 
 #include <cassert>
